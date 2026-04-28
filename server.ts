@@ -76,7 +76,7 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, '0.0.0.0', () => {
     logger.info(`Server running on http://localhost:${PORT}`);
     logger.info(`API Documentation available at http://localhost:${PORT}/api-docs`);
   });
