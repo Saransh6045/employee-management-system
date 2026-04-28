@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Enterprise Employee Management System (EMS)
 
-# Run and deploy your AI Studio app
+A high-performance, production-ready employee management system built with a Full-Stack Node.js (Express) + React architecture. This system features Role-Based Access Control (RBAC), JWT Authentication, and a sleek "Bento Grid" dashboard design.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/6294d7af-62e6-43d5-94f6-428794b86007
+- **RBAC Security**: 4 distinct roles (ADMIN, HR, MANAGER, EMPLOYEE) with granular permissions.
+- **JWT Authentication**: Secure stateless authentication using industry-standard tokens.
+- **…g leaves.
+…- `src/server/routes`: API endpoint definitions and routing.
+- `src/server/middleware`: Auth, Authorization, Audit Logging, and Error Handling.
+- `src/server/services`: Business logic and data persistence (Simulated DB).
+- `src/App.tsx`: Main React entry point with view-management logic.
+- `src/types.ts`: Shared TypeScript interfaces across front and back.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Docker (Coming Soon)
+A `Dockerfile` and `docker-compose.yml` are ready for containerized deployment in the next iteration.
