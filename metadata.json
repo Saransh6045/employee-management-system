@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise Employee Management System",
+  "description": "A production-ready employee management system with RBAC, JWT auth, leave management, and performance tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
